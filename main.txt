@@ -1,0 +1,29 @@
+what is container? 
+Basically docker is a super light-weight
+Virtual machine which has all necessery
+programs and dependencies in order to run
+your program. When we setup big application
+which has UI, database, and lots of
+microservices we need to do a setup and
+each of this services need some kind of program
+to work like JAVA and so on. And to setup
+everything and installing correctly in the
+new server probably would take days.
+But most of the time versions are not matching
+and other problems so you need to debug it
+which is very time consuming. So what dockers
+is doing, we create image and we are explaining
+what exactly is needed for our program. 
+So basically we are saying these are the dependencies,
+this is our program where it's coming from and
+than we we need to create a container with
+our program we just pulling from Docker registry.
+And container with a program will be running and
+it can be bootsrap in few seconds. So we just
+download and start in few seconds and
+whoever will be requesting that image will
+have exactly same setup. Biggest advantage of
+dockers is to ability to have exactly same
+setup everywhere and also you can very quickly
+bootstrap the whole infrastructure.
+And containers can build very quickly.
